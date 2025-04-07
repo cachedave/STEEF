@@ -1,0 +1,61 @@
+html {
+    background-color: #6C61B5;
+}
+
+html {
+    font-family: "Stalinist One", serif;
+    font-weight: 400;
+    font-style: normal;
+      }  
+      
+.eras {
+    background-color: bisque;
+    padding: 1em;
+    border: solid thin black;
+    width: 238px;
+      }
+      
+h1 {
+  color: #750a0a;
+  display: block;
+  text-align: center; 
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 50px;
+  flex-wrap: wrap; 
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.poster {
+  width: 40%;
+  margin-left: 30%;
+  color: white;
+  text-align: center;
+}
+
+.diabolical-image {
+  border: 5px solid white;
+  width: 100%;
+}
+
+@media(max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.link {
+  color: #577BC1;
+}
